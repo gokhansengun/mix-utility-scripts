@@ -3,7 +3,7 @@
 Provide the video download path and url list file as an input to download best quality videos from YouTube
 
 ```
-./download-best-quality.sh &lt;download-path> &lt;video-url-list-path>
+./download-best-quality.sh <download-path> <video-url-list-path>
 ```
 
 ## Example content of video url list file 
