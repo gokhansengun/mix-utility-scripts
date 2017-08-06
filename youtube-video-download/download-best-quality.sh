@@ -47,7 +47,7 @@ do
     echo "Obtain the just downloaded video and Asciify its name"
 
     downloaded_video_name=$(youtube-dl --get-filename -o "${video_download_target_path}/%(title)s-%(id)s.%(ext)s" ''${video}'')
-    echo "The downloaded is ${downloaded_video_name}"
+    echo "The downloaded file name is ${downloaded_video_name}"
 done
 
 asciify_video_names_after_download
